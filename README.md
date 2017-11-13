@@ -66,7 +66,7 @@ sedangkan ketika kita ingin mengomentari 2 baris atau 3 atau mungkin 10 baris ki
     */
 untuk komentar lebih dari 1 baris kita mulai dengna /* kemudian ditutup dengan */
 
-#Tipe Data
+# Tipe Data
 Dalam cpp ada beberapa tipe data dasar yang sering dipakai yaitu:
-##INT (integer)
+## INT (integer)
 
