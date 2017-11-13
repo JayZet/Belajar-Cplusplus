@@ -79,6 +79,6 @@ Tipe data adalah pengenal untuk suatu variabel, tipe data ini akan memberitahuka
 | double | sama dengan float, namun jangkauannya 2 kali dari float | 8 Byte | 1,7x10^-308 hingga 1,7x10^+308 |
 | long double | sama dengan double, tetapi jangkaunnya lebih lebar | 10 Byte | 3,4x10^-4932 hingga 3,4x10^+4932 |
 | char | Menampung tipe karakter | 1 Byte | -128 hingga 128 |
-| wchar_t | sama dengan char, namun jangkauannya lebih lebar | 2 hingga 4 Byte | 1 wide karakter |
+| wchar_t | sama dengan char, namun jangkauannya lebih lebar | 2$$^2$$ hingga 4 Byte | 1 wide karakter |
     
 
