@@ -67,5 +67,13 @@ sedangkan ketika kita ingin mengomentari 2 baris atau 3 atau mungkin 10 baris ki
 untuk komentar lebih dari 1 baris kita mulai dengna /* kemudian ditutup dengan */
 
 # Tipe Data
-Tipe data adalah pengenal untuk suatu variabel, tipe data ini akan memberitahukan kepada compiler mengenai tipe data apa yang dipakai dan seberapa lebar compiler memberikan 
+Tipe data adalah pengenal untuk suatu variabel, tipe data ini akan memberitahukan kepada compiler mengenai tipe data apa yang dipakai dan seberapa lebar compiler mengalokasikan ruang memori kepada suatu variabel.
+
+| Tipe Data | Deskripsi | Ukuran Memori | Jangkauan |
+|-----------|-----------|---------------|-----------|
+| int       | Bilangan Bulat| 2 Byte    | -32768 hingga 32768|
+| short int | sama dengan int namun jangkauan nya lebih pendek| 2 Byte | -32768 hingga 32768 |
+| Long int | Memiliki jangkauan lebih panjang dari int | 4 Byte | -2147483648 hingga 2147483648 |
+| bool | Tipe data untuk menampung nilai kebenaran (True or False) defaultnya adalah false | 1 Byte | False or True |
+| float | bilangan pecahan atau koma | 4 Byte | 3,4*10^2-38
 
