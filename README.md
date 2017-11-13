@@ -8,6 +8,7 @@ C++ adalah sebuah bahasa pemrograman yang dikembangkan dari bahasa C oleh Bjarne
 * [Komentarin Sourcenya yuk biar tidak bingung](#komentar)
     * [Komentar sebaris](#komentar-sebaris)
     * [komentar lebih dari 1 baris](#komentar-lebih-dari-sebaris)
+*[] (#tipe-data)
 
 
 ## Sintak Dasar
@@ -64,4 +65,8 @@ sedangkan ketika kita ingin mengomentari 2 baris atau 3 atau mungkin 10 baris ki
        Saya suka kucing, dan juga suka Dia
     */
 untuk komentar lebih dari 1 baris kita mulai dengna /* kemudian ditutup dengan */
+
+#Tipe Data
+Dalam cpp ada beberapa tipe data dasar yang sering dipakai yaitu:
+##INT (integer)
 
