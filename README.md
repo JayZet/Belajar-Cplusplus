@@ -8,7 +8,7 @@ C++ adalah sebuah bahasa pemrograman yang dikembangkan dari bahasa C oleh Bjarne
 * [Komentarin Sourcenya yuk biar tidak bingung](#komentar)
     * [Komentar sebaris](#komentar-sebaris)
     * [komentar lebih dari 1 baris](#komentar-lebih-dari-sebaris)
-* [Tipe Data] (#tipe-data)
+* [Tipe Data](#tipe-data)
 
 
 ## Sintak Dasar
