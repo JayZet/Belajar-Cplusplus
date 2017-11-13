@@ -75,5 +75,10 @@ Tipe data adalah pengenal untuk suatu variabel, tipe data ini akan memberitahuka
 | short int | sama dengan int namun jangkauan nya lebih pendek| 2 Byte | -32768 hingga 32768 |
 | Long int | Memiliki jangkauan lebih panjang dari int | 4 Byte | -2147483648 hingga 2147483648 |
 | bool | Tipe data untuk menampung nilai kebenaran (True or False) defaultnya adalah false | 1 Byte | False or True |
-| float | bilangan pecahan atau koma | 4 Byte | 3,4*10^2-38
+| float | bilangan pecahan atau koma | 4 Byte | 3,4x10$$^-308$$ hingga 1,7x10$$^+308$$ |
+| double | sama dengan float, namun jangkauannya 2 kali dari float | 8 Byte | 1,7x10$$^-308$$ hingga 1,7x10$$^+308$$ |
+| long double | sama dengan double, tetapi jangkaunnya lebih lebar | 10 Byte | 3,4x10$$^-4932 $$hingga 3,4x10$$^+4932$$ |
+| char | Menampung tipe karakter | 1 Byte | -128 hingga 128 |
+| wchar_t | sama dengan char, namun jangkauannya lebih lebar | 2 hingga 4 Byte | 1 wide karakter |
+    
 
