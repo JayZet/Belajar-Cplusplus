@@ -110,6 +110,6 @@ const char karakter = 'a';
 ```cpp
 #define maks = 10;
 ```
-pada prose pendeklarasian dengan menggunakan preposesor, kamu gak perlu mendeklarasikan tipe data variabel konstanta tersebut.
+pada proses pendeklarasian dengan menggunakan preposesor, kamu gak perlu mendeklarasikan tipe data variabel konstanta tersebut.
 
 
