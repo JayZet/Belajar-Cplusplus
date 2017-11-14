@@ -84,7 +84,7 @@ Tipe data adalah pengenal untuk suatu variabel, tipe data ini akan memberitahuka
 # Deklarasi Variabel
 Variabel adalah suatu data yang nilainya dapat berubah-ubah. Variabel sangat erat kaitanya dengan tipe data, karna keberadaan suatu data perlu ditentukan tipe datanya untuk pengenalan prosesor dalam mengolah data tersebut. yuk langsung ke contoh aja ya:
 
-```
+```cpp
 int a;
 float b;
 ```
