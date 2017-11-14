@@ -81,4 +81,14 @@ Tipe data adalah pengenal untuk suatu variabel, tipe data ini akan memberitahuka
 | char | Menampung tipe karakter | 1 Byte | -128 hingga 128 |
 | wchar_t | sama dengan char, namun jangkauannya lebih lebar | 2 hingga 4 Byte | 1 wide karakter |
     
+# Deklarasi Variabel
+Variabel adalah suatu data yang nilainya dapat berubah-ubah. Variabel sangat erat kaitanya dengan tipe data, karna keberadaan suatu data perlu ditentukan tipe datanya untuk pengenalan prosesor dalam mengolah data tersebut. yuk langsung ke contoh aja ya:
+
+```
+int a;
+float b;
+```
+
+
+
 
