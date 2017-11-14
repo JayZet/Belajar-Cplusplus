@@ -9,7 +9,8 @@ C++ adalah sebuah bahasa pemrograman yang dikembangkan dari bahasa C oleh Bjarne
     * [Komentar sebaris](#komentar-sebaris)
     * [komentar lebih dari 1 baris](#komentar-lebih-dari-sebaris)
 * [Tipe Data](#tipe-data)
-
+* [Deklarasi Variabel](#deklarasi-variabel)
+    * [Deklarasi Konstanta](#deklarasi-konstanta)
 
 ## Sintak Dasar
 Untuk menulis kode program dengan C++ ada sintak dasarnya, dimana sintak tersebut sangatlah penting agar program dapat berjalan, karena jika tidak ada maka program tidak dapat berjalan sama sekali, atau bahkan error. Sintak dasarnya seperti ini :
