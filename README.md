@@ -99,6 +99,17 @@ int b = 29; // ini adalah variabel lokal
 return 0;
 }
 ```
-
+## Deklarasi Konstanta
+Konstanta merupakan variabel yang memilki nilai tetap, tidak dapat dilakukan perubahan. Ada 2 cara untuk mendeklarasikan variabel konstanta, yuk perhatikan:
+1. Menggunakan const
+```cpp
+const float phi = 3.14;
+const char karakter = 'a';
+```
+2. Dengan menggunakan preposesor #define
+```cpp
+#define maks = 10;
+```
+pada prose pendeklarasian dengan menggunakan preposesor, kamu gak perlu mendeklarasikan tipe data variabel konstanta tersebut.
 
 
