@@ -88,9 +88,16 @@ Variabel adalah suatu data yang nilainya dapat berubah-ubah. Variabel sangat era
 int a;
 float b;
 ```
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+Nah berdasarkan cakupannya, variabel dibagi menjadi dua, global dan local variabel. Variabel global merupakan variabel yang dapat digunakan disemua kode program. Variabel ini dapat dipanggil dimanapun dari bagian suatu program. Sedangkan variabel lokal adalah variabel yang hanya berlaku pada suatu fungsi tertentu saja dan variabel tersebut tidak berdampak pada variabel diluar fungsi. Biar lebih paham, yuk langsung simak contohnya:
+```cpp
+#include<iostream>
+using namespace std;
+int a; // ini adalah variabel global
+
+int main(){
+int b = 29; // ini adalah variabel lokal
+return 0;
+}
 ```
 
 
