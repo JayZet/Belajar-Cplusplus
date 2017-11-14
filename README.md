@@ -88,7 +88,10 @@ Variabel adalah suatu data yang nilainya dapat berubah-ubah. Variabel sangat era
 int a;
 float b;
 ```
-
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
 
 
 
