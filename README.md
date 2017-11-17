@@ -113,4 +113,50 @@ const char karakter = 'a';
 ```
 pada proses pendeklarasian dengan menggunakan preposesor, kamu gak perlu mendeklarasikan tipe data variabel konstanta tersebut.
 
+# Bermain dengan Matematika di C++
+```
+5*2 = 10
+x+y;
+1/2*x+y;
+```
+Nah di atas itu adalah contoh sederhana dari perhitungan matematika. Perhitungan dalam matematika sendiri sudah pasti ada nilai(operand), operasinya(operator) dan hasilnya. Di dalan pemrograman juga kurang lebih akan seperti itu.Yuk langsung ke study kasus :D
+
+JayZet mempunyai uang sebesar 50k, kemudian JayZet membeli nastel sebesar 10k, berapakah sisa uang JayZet? mari selesaikan dengan c++ (harga makanannya dalam inputan user)
+```cpp
+#include <iostream>
+using namespace std;
+int main(){
+int my_money = 50000;
+int nastel;
+
+cout << "masukkan harga nastel: ";
+cin >> nastel; //kita masukkan harga nastel 10000
+
+my_money = my_money - nastel;
+
+cout<<"jumlah uang kita sekarang adalah"<<my_money<<endl; //ouputnya adalah 40000
+```
+Study Kasus yang kedua, kita akan mencoba menghitung luas lingkaran dengan jari-jari 7cm.
+Analisa variabel yang akan digunakan, r -> untuk jari-jari, hasil -> untuk menampung hasil dan rumus, dan terakhir variabel konstanta untuk phi, phi = 3.14, kemudian terakhir akan kita hitung dengan rumus phi*r*r.
+
+```cpp
+#include <iostream>
+using namespace std;
+int main(){
+float r, hasil;
+const float phi = 3.14; //bisa juga langsung float phi = 3.14; 
+r = 7;
+hasil = phi*r*r;
+cout << "Luas lingkaran adalah: " <<hasil<<endl;
+```
+nah kenapa variabel r dan hasil bertipe float? karena kemungkinan dari hasilnya akan bertipe pecahan, makanya kita menggunakan tipe data float. Nilai phi kita gunakan const yang artinya nilai phi tidak mungkin diubah.
+
+## Operator Aritmatika
+| operator | Nama | Kegunaan |
+-----------|------|----------|
+| + | Penjumlahan | untuk melakukan operasi penjumlahan |
+| - | pengurangan | untuk melakukan operasi pengurangan |
+| * | Perkalian | untuk melakukan operasi perkalian |
+| / | pembagian | untuk melakukan operasi pembagian |
+| % | modulus | untuk melakuakn operasi modulus atau sisa bagi|
 
